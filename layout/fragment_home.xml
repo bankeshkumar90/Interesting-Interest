@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="interest.interesting.com.interestinginterest.Home$PlaceholderFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:requiresFadingEdge="none"
+    android:fillViewport="false">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<EditText
+    android:id="@+id/si_amount_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    android:textAllCaps="true"
+    android:inputType="number"
+    android:maxLength="20"
+    android:textColor="@color/colorPrimary"
+    android:textColorHint="@color/colorPrimaryDark"
+    android:padding="10dp"
+    android:drawableRight="@android:drawable/ic_menu_info_details"
+    android:hint="@string/amount"/>
+
+    <EditText
+        android:id="@+id/si_interestRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/si_amount_id"
+        android:singleLine="true"
+        android:textAllCaps="true"
+        android:inputType="number"
+        android:maxLength="20"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:drawableRight="@android:drawable/ic_menu_info_details"
+        android:hint="@string/interestRate"/>
+
+    <EditText
+        android:id="@+id/si_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/si_interestRate"
+        android:singleLine="true"
+        android:textAllCaps="true"
+        android:inputType="number"
+        android:maxLength="20"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:padding="10dp"
+        android:drawableRight="@android:drawable/ic_menu_info_details"
+        android:hint="@string/interestRate"/>
+
+        <TextView
+            android:id="@+id/totalInterest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/si_month"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:hint="@string/calculated"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">दिलचस्प ब्याज</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="amount">राशी डालें</string>
+    <string name="interestRate">ब्याज की राशि डालें </string>
+    <string name="months">कुल महीने डालें </string>
+    <string name="calculated">कुल राशी</string>
+</resources>
